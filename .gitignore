@@ -147,3 +147,12 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Empire Management runtime
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-shm
+*.db-wal
